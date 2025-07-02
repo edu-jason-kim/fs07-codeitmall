@@ -1,0 +1,29 @@
+/* Added universal box-sizing to include borders and padding in element's total size */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body.dark {
+  background-color: #121212;
+}
+
+body.dark,
+body.dark a {
+  color: #f9f9f9;
+}
+
+body.light {
+  background-color: #ededed;
+}
+
+body.light,
+body.light a {
+  color: #121212;
+}
